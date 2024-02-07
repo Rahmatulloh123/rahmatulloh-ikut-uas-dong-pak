@@ -8,62 +8,62 @@
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background-image: url(https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg); /* Background color */
-            padding-top: 50px; /* Top padding */
+            background-image: url(https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg);
+            padding-top: 50px;
         }
 
         .container {
-            max-width: 400px; /* Max width for the container */
-            margin: 0 auto; /* Center the container */
+            max-width: 400px;
+            margin: 0 auto;
         }
 
         h2 {
-            font-size: 2rem; /* Heading font size */
-            margin-bottom: 20px; /* Bottom margin */
-            color: #343a40; /* Heading color */
-            text-transform: uppercase; /* Uppercase text */
-            font-weight: bold; /* Bold font weight */
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #343a40;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .form-label {
-            color: #495057; /* Label color */
-            font-weight: bold; /* Bold label */
+            color: #495057;
+            font-weight: bold;
         }
 
         .form-control {
-            border-radius: 20px; /* Border radius */
-            border: 1px solid #ced4da; /* Border color */
-            padding: 10px; /* Padding */
+            border-radius: 20px;
+            border: 1px solid #ced4da;
+            padding: 10px;
         }
 
         .btn {
-            border-radius: 20px; /* Button border radius */
-            padding: 10px 20px; /* Button padding */
-            width: 100%; /* Button width */
-            margin-top: 20px; /* Top margin */
-            transition: all 0.3s ease; /* Transition effect */
+            border-radius: 20px;
+            padding: 10px 20px;
+            width: 100%;
+            margin-top: 20px;
+            transition: all 0.3s ease;
         }
 
         .btn-primary {
-            background-color: #007bff; /* Button background color */
-            border-color: #007bff; /* Button border color */
-            color: #ffffff; /* Button text color */
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #ffffff;
         }
 
         .btn-primary:hover {
-            background-color: #0056b3; /* Button background color on hover */
-            border-color: #0056b3; /* Button border color on hover */
+            background-color: #0056b3;
+            border-color: #0056b3;
         }
 
         .btn-secondary {
-            background-color: #6c757d; /* Secondary button background color */
-            border-color: #6c757d; /* Secondary button border color */
-            color: #ffffff; /* Secondary button text color */
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: #ffffff;
         }
 
         .btn-secondary:hover {
-            background-color: #5a6268; /* Secondary button background color on hover */
-            border-color: #545b62; /* Secondary button border color on hover */
+            background-color: #5a6268;
+            border-color: #545b62;
         }
     </style>
 </head>
@@ -103,4 +103,3 @@
 
 </body>
 </html>
-

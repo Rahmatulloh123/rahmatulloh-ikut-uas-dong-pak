@@ -4,63 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>login</title>
+    <title>Login</title>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background-image : url(https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg);/* Background color */
-            padding-top: 50px; /* Top padding */
+            background-image: url(https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg);
+            padding-top: 50px;
         }
 
         .container {
-            max-width: 400px; /* Max width for the container */
-            margin: 0 auto; /* Center the container */
+            max-width: 400px;
+            margin: 0 auto;
         }
 
         h2 {
-            font-size: 2rem; /* Heading font size */
-            margin-bottom: 20px; /* Bottom margin */
-            color: #343a40; /* Heading color */
-            text-transform: uppercase; /* Uppercase text */
-            font-weight: bold; /* Bold font weight */
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #343a40;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .form-label {
-            color: #495057; /* Label color */
+            color: #495057;
+            font-weight: bold;
         }
 
         .form-control {
-            border-radius: 20px; /* Border radius */
+            border-radius: 20px;
+            border: 1px solid #ced4da;
+            padding: 10px;
         }
 
         .btn-primary {
-            background-color: #007bff; /* Button background color */
-            border-color: #007bff; /* Button border color */
-            color: #ffffff; /* Button text color */
-            border-radius: 20px; /* Button border radius */
-            padding: 10px 20px; /* Button padding */
-            margin-top: 20px; /* Top margin */
-            width: 100%; /* Button width */
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #ffffff;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            width: 100%;
         }
 
         .btn-primary:hover {
-            background-color: #0056b3; /* Button background color on hover */
-            border-color: #0056b3; /* Button border color on hover */
+            background-color: #0056b3;
+            border-color: #0056b3;
         }
 
         .btn-secondary {
-            background-color: #6c757d; /* Secondary button background color */
-            border-color: #6c757d; /* Secondary button border color */
-            color: #ffffff; /* Secondary button text color */
-            border-radius: 20px; /* Secondary button border radius */
-            padding: 10px 20px; /* Secondary button padding */
-            margin-top: 10px; /* Top margin */
-            width: 100%; /* Secondary button width */
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: #ffffff;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            width: 100%;
         }
 
         .btn-secondary:hover {
-            background-color: #5a6268; /* Secondary button background color on hover */
-            border-color: #545b62; /* Secondary button border color on hover */
+            background-color: #5a6268;
+            border-color: #545b62;
         }
     </style>
 </head>
@@ -104,5 +107,3 @@
 
 </body>
 </html>
-
-
